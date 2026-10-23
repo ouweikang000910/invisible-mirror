@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.sites-runtime/
+.openai/*.local.*
+.DS_Store
+
+.openai/
+# Recreated and hash-checked in GitHub Actions, served locally after build.
+public/ai/coco/model.json
+public/ai/coco/group*-shard*
+public/ai/tesseract/worker.min.js
+public/ai/tesseract/core/
+public/ai/tesseract/lang/*.traineddata.gz
+
+node_modules
